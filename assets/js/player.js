@@ -1,9 +1,9 @@
 
 // ----------------------------------------------------------------------------------------------------------------- //
 
-    var vJsonSetup = "https://domsamuka.com/player/new_youtube/assets/json/lead2.json" ;
+    var vJsonSetup = "https://cdn.jsdelivr.net/gh/domsamuka/player_youtube@master/assets/json/lead2.json" ;
 	
-    var vJsVideo   = "https://domsamuka.com/player/new_youtube/assets/js/video.js" ;
+    var vJsVideo   = "https://cdn.jsdelivr.net/gh/domsamuka/player_youtube@master/assets/js/video.js" ;
 
 // ----------------------------------------------------------------------------------------------------------------- //
 

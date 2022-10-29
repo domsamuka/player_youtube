@@ -3,7 +3,7 @@
 
 .up_container .soundButton 
 {
-	background: url( "https://cdn.jsdelivr.net/gh/domsamuka/cdn/player_youtube/assets/img/sound.png" ), rgba( 0, 0, 0, 0.5 ) ;
+	background: url( "https://cdn.jsdelivr.net/gh/domsamuka/player_youtube@master/assets/img/sound.png" ), rgba( 0, 0, 0, 0.5 ) ;
 	
 	background-repeat: no-repeat;
 	background-position: center;
@@ -12,7 +12,7 @@
 
 .up_container .playpause 
 {
-	background: url( "https://cdn.jsdelivr.net/gh/domsamuka/cdn/player_youtube/assets/img/continue.png" ), rgba( 0, 0, 0, 0.5 ) ;
+	background: url( "https://cdn.jsdelivr.net/gh/domsamuka/player_youtube@master/assets/img/continue.png" ), rgba( 0, 0, 0, 0.5 ) ;
 	
 	background-repeat: no-repeat;
 	background-position: center;
@@ -21,7 +21,7 @@
 
 .up_container .play 
 {
-	background: url( "https://cdn.jsdelivr.net/gh/domsamuka/cdn/player_youtube/assets/img/play.png" ), rgba( 0, 0, 0, 0.5 ) ;
+	background: url( "https://cdn.jsdelivr.net/gh/domsamuka/player_youtube@master/assets/img/play.png" ), rgba( 0, 0, 0, 0.5 ) ;
 	
 	background-repeat: no-repeat;
 	background-position: center;
