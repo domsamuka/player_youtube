@@ -1,0 +1,160 @@
+
+/* ------------------------------------------ */
+
+.up_container .soundButton 
+{
+	background: url( "https://cdn.jsdelivr.net/gh/domsamuka/cdn/player_youtube/assets/img/sound.png" ), rgba( 0, 0, 0, 0.5 ) ;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+}
+
+.up_container .playpause 
+{
+	background: url( "https://cdn.jsdelivr.net/gh/domsamuka/cdn/player_youtube/assets/img/continue.png" ), rgba( 0, 0, 0, 0.5 ) ;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+}
+
+.up_container .play 
+{
+	background: url( "https://cdn.jsdelivr.net/gh/domsamuka/cdn/player_youtube/assets/img/play.png" ), rgba( 0, 0, 0, 0.5 ) ;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 80%;
+}
+
+/* ------------------------------------------ */
+
+#id_player
+{
+	position: relative; 
+	
+	width: 100% ; 
+	
+	height: 100% ;
+}
+
+/* ------------------------------------------ */
+
+.up_container 
+{
+	position: relative;
+}
+
+.up_container .player-wrapper 
+{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #222;
+}
+
+.up_container #stream 
+{
+	width: 100%;
+}
+
+.up_container .glass 
+{
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	margin: auto;
+	background-position: center;
+}
+
+.up_container .playpause,
+.up_container .play 
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	margin: auto;
+	visibility: hidden;
+}
+
+.up_container video::-webkit-media-text-track-display 
+{
+	font-size: 80%;
+}
+
+@media (min-width: 1024px) 
+{
+	.up_container video::-webkit-media-text-track-display 
+	{
+		font-size: 140%;
+	}
+}
+
+.up_container a.soundButton 
+{
+	position: absolute;
+	color: #fff !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	background: ;
+	cursor: pointer;
+	z-index: 3;
+}
+
+.up_container .stream_container 
+{
+	position: relative;
+}
+
+.up_container .player-wrapper video,
+.up_container .player-wrapper iframe,
+.up_container .player-wrapper > div 
+{
+	border: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+@media (orientation: landscape) 
+{
+	.up_container {
+		padding-bottom: 56.75%;
+		max-height: 90vh;
+	}
+	
+	.up_container .player-wrapper 
+	{
+		padding-bottom: 56.75%;
+	}
+}
+
+@media (orientation: portrait) 
+{
+	.up_container 
+	{
+		padding-bottom: 175%;
+		max-height: 90vh;
+	}
+	
+	.up_container .player-wrapper 
+	{
+		padding-bottom: 175%;
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "youtube_player" : true ,
+    "videos" :
+    {
+        "youtube" :
+        {
+            "landscape" : true ,
+            "portrait"  : true
+        }
+    }
+}
