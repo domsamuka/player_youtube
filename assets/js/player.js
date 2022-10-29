@@ -7,7 +7,18 @@
 
 // ----------------------------------------------------------------------------------------------------------------- //
 
-	var vVideoID = window.innerHeight > window.innerWidth ? ID_Celular : ID_Computador ;
+    if( ( ID_Celular == "" ) || ( ID_Celular == ID_Computador ) )
+    {
+        var vVideoID = ID_Computador ;
+    }
+    else if( ID_Computador == "" )
+    {
+        var vVideoID = ID_Celular ;
+    }
+    else
+    {
+        var vVideoID = window.innerHeight > window.innerWidth ? ID_Celular : ID_Computador ;
+    }
 
 // ----------------------------------------------------------------------------------------------------------------- //
 	
